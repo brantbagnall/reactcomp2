@@ -35,6 +35,9 @@ class Home extends Component {
             {/* COMP 42E */}
             <Link to={`/test/${this.state.test}`}>To Id page</Link>
         </div>
+        <div className='box-stuff' style={{width: '100px', height: '100px'}} >
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra felis et neque volutpat viverra. Donec congue id enim sed tincidunt. Sed dapibus nec odio ultrices mattis. Sed faucibus luctus nunc, id lobortis felis suscipit vitae. Duis laoreet, ligula vitae egestas hendrerit, purus lacus luctus leo, vel porttitor orci est vitae mauris. Donec ac odio nisl. In dignissim lorem ac urna volutpat suscipit. Quisque sollicitudin ac ex id viverra. Aenean sed diam libero. Duis at massa non justo ultricies consequat. Duis enim lectus, faucibus quis enim nec, interdum sollicitudin erat. Donec semper orci mi, elementum finibus dui suscipit id. Duis ullamcorper vitae nisi nec auctor. Aenean facilisis blandit auctor.</p>
+        </div>
       </div>
     );
   }
